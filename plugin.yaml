@@ -1,0 +1,17 @@
+name: "demo-trivy-plgn"
+repository: github.com/afdesk/demo-trivy-plgn
+version: "0.0.1"
+usage: show demo message
+description: |-
+  A Trivy Demo plugin shows a demo message.
+  Usage: trivy demo-trivy-plgn
+platforms:
+  - selector: # optional
+      os: darwin
+      arch: amd64
+    uri: ./demo-trivy-plgn # where the execution file is (local file, http, git, etc.)
+    bin: ./demo-trivy-plgn # path to the execution file
+  - selector: # optional
+      os: linux
+      arch: amd64
+    bin: ./demo-trivy-plgn
