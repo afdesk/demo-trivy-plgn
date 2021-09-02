@@ -14,4 +14,5 @@ platforms:
   - selector: # optional
       os: linux
       arch: amd64
+    uri: https://github.com/afdesk/demo-trivy-plgn/releases/download/v0.0.1/demo-trivy-plgn
     bin: ./demo-trivy-plgn
